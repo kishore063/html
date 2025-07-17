@@ -1,0 +1,83 @@
+<!-- crating a forms-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms
+
+    </title>
+    <style>
+        fieldset{
+            border:2px solid green;
+             width:500px; 
+            height:330px;
+            padding: 50px;
+            background-color:rgba(200, 200,200, 0.8);
+            background-image: url("boat wallpaper.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: whitesmoke;
+            border-radius: 30px;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<script>
+    
+</script>
+<body>
+    <fieldset  >
+        <legend style="color:gold">login form</legend>
+    <form action="/login">
+<label for="t1"> email ::</label>
+<input type="text" id ="t1" name="email">
+<br><br>
+<br>
+<label for="t2"> password ::</label>
+<input type="password" id ="t2" name="password" max="3">
+<br>
+<br>
+
+<input type="submit"  value="submit"><br>
+<br>
+<label for="n">age</label>
+&nbsp;&nbsp;
+<input type="number" placeholder="age" min ="10" max="23">
+
+<label for="">Gender</label>
+<label for="">male:</label>
+<input type="radio">
+<label for="">Female:</label>
+<input type="radio">
+<br><br>
+<label for="n"></label>
+<select name="" id="n">
+<option value="dog">dog</option>
+<option value="dog" selected>dog2</option>
+<option value="dog">dog3</option>
+</select>
+
+
+<label for="range">range</label>
+<input type="range">
+<input type="reset ">
+
+
+<input type="country">
+</fieldset>
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
